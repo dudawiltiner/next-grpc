@@ -1,7 +1,7 @@
 # Teste Ping Pong - NextJS + gRPC
 
 <div align="center">
-  <img src="./public/app.gif" margin="20px 10px" width="700" alt="login"/>
+  <img src="./public/app.gif" margin="20px 10px" width="800" alt="login"/>
 </div>
 
 Foi baseado em um tutorial feito para o React + gRPC: https://morioh.com/a/ae48b33d10a0/how-to-use-grpc-web-with-react
@@ -16,19 +16,29 @@ Foi baseado em um tutorial feito para o React + gRPC: https://morioh.com/a/ae48b
 
 ### Frontend
 
-> npm i
+```
+ npm i
+```
 
-> npm run dev
+```
+ npm run dev
+```
 
 ### Backend
 
-> node server.js
+```
+ node server.js
+```
 
 ### Proxy Envoy
 
-> docker pull envoyproxy/envoy:v1.18-latest
+```
+ docker pull envoyproxy/envoy:v1.18-latest
+```
 
-> docker run --name my-envoy -p 9901:9901 -p 8080:8080 -v $(pwd)/envoy.yaml:/etc/envoy/envoy.yaml envoyproxy/envoy:v1.18-latest
+```
+ docker run --name my-envoy -p 9901:9901 -p 8080:8080 -v $(pwd)/envoy.yaml:/etc/envoy/envoy.yaml envoyproxy/envoy:v1.18-latest
+```
 
 ## O que foi feito?
 
