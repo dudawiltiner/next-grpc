@@ -11,6 +11,7 @@ Foi baseado em um tutorial feito para o React + gRPC: https://morioh.com/a/ae48b
 - [protoc](https://grpc.io/docs/protoc-installation/)
 - [npm](https://www.npmjs.com/)
 - [node](https://nodejs.org/en)
+- [docker](https://www.docker.com/)
 
 ## Rodando localmente
 
